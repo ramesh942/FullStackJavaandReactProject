@@ -1,0 +1,9 @@
+Browswer Storage
+LocalStrorage
+JSON.stringfy
+JSON.pars
+
+LocalStrorage :- Built-in browser Storage that keeps the data saved on the user s computer even after refereshing the (F5) or closing the browser.
+JSON.stringfy(data): Convert a javascript array or object into a JSON text string.this required because localstorage can only stor plain string.
+JSON.pars(text) : Convert a saved JSON Sting back into usable javascript array or object when reading it back.
+

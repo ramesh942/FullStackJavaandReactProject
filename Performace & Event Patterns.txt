@@ -1,0 +1,7 @@
+performace & Event Patterns
+Event Delegation: insted of attaching 1000 seprate click liteners to 1000 table rows or list buttons,
+you attcahed one single listener to the parent contaner (<ul> or <tbody) and use e.target.closet(...)
+to detect wich  child button was clicked.
+work automaticlly for daynamically add items.
+Debouncing : Dealy running an expensive function like a live search until the user stop typing for a a set pause (e.g: 300ms)
+Every new keystroke cancles the priouse timer (clearTimeout) and starts a fresh one (setTimeout).

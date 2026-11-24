@@ -1,0 +1,5 @@
+ES6 Modules (import & export)
+ES6 Modules:Lets you split a larg Javascript apllication in to small, reusable files insted of dumping 1000 lines
+into one app.js file (the exact structure React uses)
+Name Export (export const ...):Export Multiple helper function /constant form a file : imported using curly {....} with exact same name.
+Default Export (export default ....): Export one primary function or object from a file imported without curly braces.
