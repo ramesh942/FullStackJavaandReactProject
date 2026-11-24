@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GitHub Profile Finder & Bookmarks</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 520px; margin: 40px auto; line-height: 1.5; }
+    input { width: 100%; padding: 10px; box-sizing: border-box; margin-bottom: 12px; }
+    .card { border: 1px solid #ddd; padding: 14px; border-radius: 8px; margin-bottom: 20px; }
+    li { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #eee; }
+  </style>
+</head>
+<body>
+  <h2>GitHub Developer Finder</h2>
+  <input type="text" id="usernameInput" placeholder="Type GitHub username (e.g., gaearon)..." />
+  <div id="profileContainer"></div>
+
+  <h3>Saved Bookmarks</h3>
+  <ul id="bookmarkList"></ul>
+
+  <!-- Load app.js as an ES6 Module -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
