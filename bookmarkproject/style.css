@@ -1,27 +1,27 @@
-body{
-    font-family: Arial, sans-serif;
-    margin: 40px auto;
-    line-height: 1.5;
-    padding: 0;
-    background-color: #f4f4f9;
-    max-width: 520px;
+body { 
+    font-family: system-ui, sans-serif; 
+    max-width: 520px; 
+    margin: 40px auto; 
+    line-height: 1.5; 
 }
-input{
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-bottom: 12px;
-}
-.card {border:  1px solid ;
-    padding: 14px;
-    border-radius: 8px;
-    margin-bottom: 20px;  
 
+input { 
+    width: 100%; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    margin-bottom: 12px; 
 }
-li {
-    display: flex;
-    justify-content: space-between;
-    padding:8px 0 ;
-    border-bottom: 1px solid #eee;
 
+.card { 
+    border: 1px solid #ddd; 
+    padding: 14px; 
+    border-radius: 8px; 
+    margin-bottom: 20px; 
+}
+
+li { 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 8px 0; 
+    border-bottom: 1px solid #eee; 
 }
