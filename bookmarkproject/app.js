@@ -9,6 +9,7 @@ let currentProfile = null;
 // Render saved bookmarks list
 const renderBookmarks = () => {
   const bookmarks = getBookmarks();
+  console.log("bookmar",bookmarks)
   bookmarkList.innerHTML = bookmarks
     .map(
       (dev) => `

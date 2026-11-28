@@ -14,6 +14,7 @@ export const saveBookmark = (dev) => {
   if (current.some((item) => item.login === dev.login)) return current;
 
   const updated = [...current, dev];
+  console.log("updated",updated)
   localStorage.setItem(KEY, JSON.stringify(updated));
   return updated;
 };
